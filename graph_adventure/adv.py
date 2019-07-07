@@ -81,11 +81,6 @@ def traversal(player, graph):
         traversalPath.append(d)
         player.travel(d)
 
-  # print(traversalPath)
-  # print(len(traversalPath))
-  return traversalPath
-
-
 
 
 traversal(player, roomGraph)
